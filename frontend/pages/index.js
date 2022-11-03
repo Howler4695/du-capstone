@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { Section, Header, Footer, Button } from "../components";
+import { Section, Header, Footer, Button, AddBookModal } from "../components";
 import Image from "next/image";
 
 const Home = () => {
@@ -32,6 +32,8 @@ const Home = () => {
           src="/DU-Logo-Mark.svg"
           alt="DU Logo"
           height="40px"
+          width="40px"
+          // layout="fill"
         />
         <text
           style={{
@@ -49,7 +51,7 @@ const Home = () => {
             My Library
           </text>
         </Header>
-
+        <AddBookModal />
         <Button>Yes</Button>
       </Section>
       <Footer text="2022 Howle Federal - All Rights Reservered" />
