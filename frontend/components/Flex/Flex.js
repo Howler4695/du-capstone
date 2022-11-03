@@ -6,7 +6,7 @@ const StyledFlex = styled.div`
 `;
 
 const Flex = ({ children, direction = "row", ...props }) => {
-  return <div {...props}>{children}</div>;
+  return <StyledFlex {...props}>{children}</StyledFlex>;
 };
 
 export default Flex;
