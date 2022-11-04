@@ -45,10 +45,10 @@ const Modal = ({
       <text id="modal-title">{title}</text>
       <StyledContent>
         {text ? (
-          <text>{text}poop</text>
+          <text>{text}</text>
         ) : (
           inputAreas &&
-          inputAreas.map((inputArea) => {
+          inputAreas.map((inputArea, index) => {
             return (
               <>
                 <text>{inputArea.title}</text>

@@ -10,3 +10,4 @@ export { default as Modal } from "./Modal";
 export { default as RemoveBookModal } from "./RemoveBookModal";
 export { default as Section } from "./Section";
 export { default as Toast } from "./Toast";
+export { default as Text } from "./Section";

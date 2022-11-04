@@ -29,11 +29,10 @@ const Home = () => {
       >
         <Image
           style={{ padding: "0rem 1rem" }}
-          src="/DU-Logo-Mark.svg"
+          src="/dancing-skeleton-1.gif"
           alt="DU Logo"
           height="40px"
           width="40px"
-          // layout="fill"
         />
         <text
           style={{
@@ -44,6 +43,13 @@ const Home = () => {
         >
           Howle's Capstone
         </text>
+        <Image
+          style={{ padding: "0rem 1rem" }}
+          src="/dancing-skeleton-1.gif"
+          alt="DU Logo"
+          height="40px"
+          width="40px"
+        />
       </Header>
       <Section>
         <Header>
@@ -54,7 +60,7 @@ const Home = () => {
         <AddBookModal />
         <Button>Yes</Button>
       </Section>
-      <Footer text="2022 Howle Federal - All Rights Reservered" />
+      <Footer text="ⓒ2001 Howle Federal - All Rights Reservered" />
     </>
   );
 };
